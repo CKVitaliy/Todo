@@ -1,0 +1,56 @@
+#main {
+    margin: auto;
+    width: 700px;
+    background: darkgray;
+    padding: 10px;
+}
+
+#inputDiv {
+    margin: auto;
+    width: 700px;
+}
+
+#input {
+    width: 500px;
+    margin: auto;
+    min-height: 50px;
+    font-size: 16px;
+    display: block;
+}
+
+#allTasks {
+    margin: auto;
+    width: 500px;
+}
+
+#tasks {
+    list-style-type: none;
+    padding: 0px;
+    width: 500px;
+}
+li {
+    margin-bottom: 10px;
+}
+li:hover {
+    background: gray;
+}
+span {
+    margin: 0 10px 0 10px;
+    font-size: 16px;
+    width: 30px;
+    text-align: center;
+}
+
+.done:hover {
+    background: black;
+    color: green;
+    cursor: pointer;
+}
+.del {
+    float: right;
+}
+.del:hover {
+    background: black;
+    color: darkred;
+    cursor: pointer;
+}
