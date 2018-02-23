@@ -36,14 +36,16 @@ document.getElementById("tasks").addEventListener("click", doneTask);
 function doneTask() {
     var done = document.getElementsByClassName("done");
     for (var i=0; i<=done.length;i++){
-        if (event.target == done[i]){
+        if (event.target === done[i]){
             var x = arr.splice(i,1);
             var tasks = document.getElementById("tasks");
             while (tasks.lastChild){tasks.removeChild(tasks.lastChild)}
             showArr(arr, "tasks");
+            arrDone.push(x[0]);
             console.log(x);
-            arrDone.push((x[0]));
+            console.log (arrDone);
             showArr(arrDone, "doneTasks");
+/*            break*/
         }
     }
 }
