@@ -45,7 +45,7 @@ function doneTask() {
             console.log(x);
             console.log (arrDone);
             showArr(arrDone, "doneTasks");
-/*            break*/
+            break
         }
     }
 }
