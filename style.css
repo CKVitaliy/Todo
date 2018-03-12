@@ -28,6 +28,13 @@
     padding: 0px;
     width: 500px;
 }
+
+#doneTasks {
+    list-style-type: none;
+    padding: 0px;
+    width: 500px;
+}
+
 li {
     margin-bottom: 10px;
 }
